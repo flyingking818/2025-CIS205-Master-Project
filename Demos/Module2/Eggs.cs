@@ -37,7 +37,7 @@ namespace CIS205_Master_Project.Demos.Module2
             total = chicken1 + chicken2 + chicken3 + chicken4;
             dozens = total / DOZENS;    //the int type automatically truncates the decimal
             leftOver = total % DOZENS;  //the modulus operator gives the remainder
-
+            
             //Output (O)
             //Option 1 - placeholders
             WriteLine("A total of {0} eggs is {1} dozen and {2} eggs.", total, dozens, leftOver);
@@ -45,7 +45,21 @@ namespace CIS205_Master_Project.Demos.Module2
             //Option 2 - string interpolation (recommended!)
             WriteLine($"A total of {total} eggs is {dozens} dozen and {leftOver} eggs.");
 
+            //Alternative format - summary table
+            //Option 1 - placeholders
+            WriteLine("{0,-10}{1,30}","Total:", total);
+            WriteLine("{0,-10}{1,30}", "Dozens:", dozens);
+            WriteLine("{0,-10}{1,30}", "Eggs:", leftOver);
+
+            WriteLine("\n");
+            WriteLine("__________________");
+            //Option 2 - interpolation (better!)
+            WriteLine($"{"Total:",-10}{total,30}");
+            WriteLine($"{"Dozens:",-10}{dozens,30}");
+            WriteLine($"{"Eggs:",-10}{leftOver,30}");
+
             ReadKey();
+
 
         }
     }

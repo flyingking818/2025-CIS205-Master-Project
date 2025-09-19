@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Demos\Module2\Eggs.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
