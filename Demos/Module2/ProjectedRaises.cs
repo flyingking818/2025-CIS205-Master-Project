@@ -38,8 +38,8 @@ class ProjectedRaises
 
         //Simplified examples:
         WriteLine($"Next year's salary for the first employee will be {salary1.ToString("C")}");
-        WriteLine($"Next year's salary for the first employee will be {salary1.ToString("C")}");
-        WriteLine($"Next year's salary for the first employee will be {salary1.ToString("C")}");
+        WriteLine($"Next year's salary for the first employee will be {salary2.ToString("C")}");
+        WriteLine($"Next year's salary for the first employee will be {salary3.ToString("C")}");
 
         //Without the dollar symbol
         WriteLine($"Next year's salary for the first employee will be {salary1.ToString("N2")}");
