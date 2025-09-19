@@ -31,7 +31,7 @@ class ProjectedRaises
         WriteLine("Next year's salary for the second employee will be {0}", salary2.ToString("C", CultureInfo.GetCultureInfo("en-US")));
         WriteLine("Next year's salary for the third employee will be {0}", salary3.ToString("C", CultureInfo.GetCultureInfo("en-US")));
 
-        //Interpoliation examples:
+        //Interpolation examples:
         WriteLine($"Next year's salary for the first employee will be {salary1.ToString("C",CultureInfo.GetCultureInfo("en-US"))}");
         WriteLine($"Next year's salary for the first employee will be {salary2.ToString("C", CultureInfo.GetCultureInfo("en-US"))}");
         WriteLine($"Next year's salary for the first employee will be {salary3.ToString("C", CultureInfo.GetCultureInfo("en-US"))}");
