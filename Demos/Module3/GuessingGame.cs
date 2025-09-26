@@ -13,8 +13,8 @@ namespace CIS205_Master_Project.Demos.Module3
             const int MAX = 11; //non-inclusive (next number)
             
             int randomNum;  //random class generates this
-            int guess;      // via user input
-            string result="";
+            int guess;      //via user input
+            string result=""; //if we wish to use an outcome variable to store the result.
 
 
             //2. Get input from the user (or this can be step 3)
@@ -71,8 +71,6 @@ namespace CIS205_Master_Project.Demos.Module3
                 WriteLine("Correct!:)");
             }
            
-
-
 
             //5. Produce meaningful output
 
