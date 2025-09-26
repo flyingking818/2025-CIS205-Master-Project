@@ -30,6 +30,23 @@ namespace CIS205_Master_Project.Demos.Module3
             Write("Please enter a number (e.g., 8): ");
             number = int.Parse(ReadLine());
 
+            //Translation examples of comparsion symbols
+
+            // over >
+            // under <
+            // within <=
+            // does not exceed <=
+
+            // (hired) on or after >=
+            // (hired) after >
+            // (hired) before <
+            // (hired) before or on <=
+            // add on to this...
+
+
+
+
+
             //Decision making
             if (number > HIGH) 
                 WriteLine($"{number} is greater than {HIGH}");

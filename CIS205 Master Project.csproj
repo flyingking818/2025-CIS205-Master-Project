@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Demos\Module3\IfElseDecision.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
