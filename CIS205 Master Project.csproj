@@ -22,7 +22,9 @@
 
   <ItemGroup>
     <Compile Remove="Demos\Module3\GuessingGame.cs" />
+    <Compile Remove="Demos\Module3\Hurricane.cs" />
     <Compile Remove="Demos\Module3\IfElseDecision.cs" />
+    <Compile Remove="Demos\Module3\MovieDiscount.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
