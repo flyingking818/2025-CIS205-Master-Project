@@ -27,8 +27,17 @@ namespace CIS205_Master_Project.Demos.Module3
 
             switch (stateCode)
             {
-                case "FL":
-                    discountState = 0.15;
+                //"Fl"=>discountState = 0.15;
+                case "FL":                   
+                    //nest if   ...swtich...if combo
+                    if (isFlaglerStudent)  //boolean contains T/F already.
+                    {
+                        discountState = 0.15;
+                    }
+                    else
+                    {
+                        discountState = 0.10;
+                    }
                     break;
                 case "NE":
                 case "CA":
@@ -40,7 +49,6 @@ namespace CIS205_Master_Project.Demos.Module3
                 case "OH":
                     discountState = 0.06;
                     break;
-
                 default:
                     discountState = 0.00;
                     break;
@@ -48,7 +56,7 @@ namespace CIS205_Master_Project.Demos.Module3
 
             salePrice = purchasePrice* (1-discountState);  //decrease scenario! :)
 
-            WriteLine($"Your state discount is {discountState} and the sale price is {salePrice}");
+            WriteLine($"Your state discount is {discountState.ToString("P")} and the sale price is {salePrice.ToString("C")}");
                
 
 
