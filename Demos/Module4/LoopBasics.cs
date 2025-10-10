@@ -99,6 +99,26 @@ namespace CIS205_Master_Project.Demos.Module4
         }        
     }
 
+    //MindTap Demo
+    class SumInts
+    {
+        static void Main()
+        {
+            int num, sum = 0;
+            const int STOP = 999;
+
+            Write("Enter a number >> ");
+            num = Convert.ToInt32(ReadLine());
+            while (num != STOP)
+            {
+                sum += num;
+                Write("Enter another number or {0} to quit >> ", STOP);
+                num = Convert.ToInt32(ReadLine());
+            }
+            WriteLine("\n                             The sum is {0}", sum);
+        }
+    }
+
 }
 
 
