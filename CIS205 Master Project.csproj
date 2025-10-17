@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Demos\Module4\LoopBasics.cs" />
     <Compile Remove="Program.cs" />
   </ItemGroup>
 
