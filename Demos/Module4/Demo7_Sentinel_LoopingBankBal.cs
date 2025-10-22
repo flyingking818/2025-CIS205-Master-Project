@@ -39,20 +39,20 @@ class LoopingBankBal
         response = Convert.ToChar(ReadLine());
 
         //char.ToUpper(response);  //convert to uppercase
-        /*
+        
                       
         while (response=='Y' || response == 'y')   // || means OR, && means AND, ! means NOT
         {
             WriteLine("Bank balance is {0}", bankBal.ToString("C"));
             //bankBal = bankBal + bankBal * INT_RATE;
-            bankBal = bankBal* (1 + INT_RATE);  //easier to understand.
-            //bankBal *= INT_RATE;  //this is preferred.
+            //bankBal = bankBal* (1 + INT_RATE);  //easier to understand.
+            bankBal *= (1 + INT_RATE);  //this is preferred.
 
             //Don't forget to reask!
             Write("Do you want to see next year's balance? Y or N...");
             response = Convert.ToChar(ReadLine());
         }
-       */
+       
 
         //Do...While loop => execute at least once (avoid this if you can). we usually use this for 
         //recordset processing.
