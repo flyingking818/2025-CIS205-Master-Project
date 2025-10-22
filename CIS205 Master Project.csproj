@@ -13,19 +13,25 @@
     <Compile Remove="Demos\Module1\**" />
     <Compile Remove="Demos\Module2\**" />
     <Compile Remove="Demos\Module3\**" />
+    <Compile Remove="Demos\Module4\**" />
     <EmbeddedResource Remove="Assignments\**" />
     <EmbeddedResource Remove="Demos\Module1\**" />
     <EmbeddedResource Remove="Demos\Module2\**" />
     <EmbeddedResource Remove="Demos\Module3\**" />
+    <EmbeddedResource Remove="Demos\Module4\**" />
     <None Remove="Assignments\**" />
     <None Remove="Demos\Module1\**" />
     <None Remove="Demos\Module2\**" />
     <None Remove="Demos\Module3\**" />
+    <None Remove="Demos\Module4\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Demos\Module4\LoopBasics.cs" />
     <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Demos\Module4\Demo7_Sentinel_LoopingBankBal.cs" />
   </ItemGroup>
 
 </Project>
