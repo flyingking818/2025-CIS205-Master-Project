@@ -10,20 +10,11 @@
 
   <ItemGroup>
     <Compile Remove="Assignments\**" />
-    <Compile Remove="Demos\Module1\**" />
-    <Compile Remove="Demos\Module2\**" />
-    <Compile Remove="Demos\Module3\**" />
-    <Compile Remove="Demos\Module4\**" />
+    <Compile Remove="Demos\**" />
     <EmbeddedResource Remove="Assignments\**" />
-    <EmbeddedResource Remove="Demos\Module1\**" />
-    <EmbeddedResource Remove="Demos\Module2\**" />
-    <EmbeddedResource Remove="Demos\Module3\**" />
-    <EmbeddedResource Remove="Demos\Module4\**" />
+    <EmbeddedResource Remove="Demos\**" />
     <None Remove="Assignments\**" />
-    <None Remove="Demos\Module1\**" />
-    <None Remove="Demos\Module2\**" />
-    <None Remove="Demos\Module3\**" />
-    <None Remove="Demos\Module4\**" />
+    <None Remove="Demos\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Demos\Module4\Demo7_Sentinel_LoopingBankBal.cs" />
+    <Compile Include="Demos\Module5\ArrayDemo2.cs" />
+    <Compile Include="Demos\Module5\ArrayDemo.cs" />
   </ItemGroup>
 
 </Project>
