@@ -22,8 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Demos\Module5\ArrayDemo2.cs" />
-    <Compile Include="Demos\Module5\ArrayDemo.cs" />
+    <Compile Include="Demos\Module5\Demo3_AdvancedArrays.cs" />
   </ItemGroup>
 
 </Project>

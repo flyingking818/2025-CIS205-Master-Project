@@ -11,17 +11,23 @@ class TestScoreList
 {
     static void Main()
     {
-        int[] scores = new int[8];
-        int testNum;
-        double total = 0;
-        double avg;
+        int[] scores = new int[8];  //.Length = 8  upper bound = 7, lower bound=0
+        int testNum;  //index number
+        double total = 0;  //subtotal for all student scores
+        double avg;  //avg = total/length
+
+        //Input procedure for a fixed array
         for (testNum = 0; testNum < scores.Length; ++testNum)
         {
             Write("Please enter score for test number {0} >> ", (testNum + 1));
-            scores[testNum] = Convert.ToInt32(ReadLine());
-            total += scores[testNum];
+            scores[testNum] = Convert.ToInt32(ReadLine());//assignment for array element.
+            total += scores[testNum]; //accumulative subtotal
+
         }
-        avg = total / scores.Length;
+        //Do this outside of the loop
+        avg = total / scores.Length;  //  = total/sample size
+
+        //Output, finding the spread of observations from the mean (dispersion)
         WriteLine("Scores for the tests are:");
         for (testNum = 0; testNum < scores.Length; ++testNum) 
         { 

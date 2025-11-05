@@ -7,7 +7,9 @@ class AdvancedArrays
     {
         //=============Parallel Arrays and Search Techniques================
 
-        //1. Paralles arrays delcaration and intialization
+        //1. Parallel arrays delcaration and intialization
+        // Positioin matters!!! Make sure they match! :)
+
         int[] validValues = { 101, 108, 201, 213, 266, 304, 311, 409, 411, 412 };
         double[] prices = { 0.89, 1.23, 3.50, 0.69, 5.79, 3.19, 0.99, 0.89, 1.26, 8.00 };
 
@@ -20,6 +22,8 @@ class AdvancedArrays
 
         //2. ------------For Loop Search Techniques-----------------
         //This would loop through ALL items => inefficient.
+        //This is very similar the VLOOKUP function in excel!
+
         for (int x = 0; x < validValues.Length; ++x)
         {
             if (itemOrdered == validValues[x]) // this is pretty picky!!!
@@ -30,6 +34,8 @@ class AdvancedArrays
         }
 
         //Early exit. Some programmers might not like this, though.
+        // Similar to GOTO command in old VB program
+
         for (int x = 0; x < validValues.Length; ++x)
         {
             if (itemOrdered == validValues[x])
