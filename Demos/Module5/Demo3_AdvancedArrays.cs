@@ -58,11 +58,32 @@ class AdvancedArrays
             }
         }
 
+        // 2. BinarySearch on the sorted codes
+        int foundIndex = Array.BinarySearch(validValues, itemOrdered);
+
+        if (foundIndex >= 0)
+        {
+            double foundPrice = prices[foundIndex];
+            WriteLine($"Found {itemOrdered}. Price: {foundPrice:C}");
+        }
+        else
+        {
+            WriteLine("Item not found");
+        }
+
+
+        //Reserve
+        int[] valuesDesc = validValues.ToArray();
+        double[] priceDesc = prices.ToArray();
+        Array.Reverse(valuesDesc);
+        Array.Reverse(priceDesc);
+
+
 
         //3. ------------While Loop Search Techniques-----------------
         int i = 0;
         //Keep searching with the array range until there is a match.
-        while (i < validValues.Length & itemOrdered != validValues[i])
+        while (i < validValues.Length && itemOrdered != validValues[i])
         {
             ++i;
         }
