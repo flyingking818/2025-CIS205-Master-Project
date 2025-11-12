@@ -110,6 +110,10 @@ class AdvancedArrays
             {10000, 1250, 1600 }
         };
 
+        // 4 x 3 (12 cells)
+        rents[2,1]  //$676, 3rd floor, second room
+        //how many commas do I need? N = Dimension - 1
+
         int floor;
         int bedrooms;
         string inputString;
