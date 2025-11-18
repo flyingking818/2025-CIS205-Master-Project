@@ -60,6 +60,11 @@ class MethodBasics
         WriteLine("In method a is {0}", a);
     }
 
+    private static double CalculateSalesTax(double saleAmount)
+    {
+
+    }
+
     private static void DisplaySalesTax(double saleAmount)  //parameter
     {
         double tax;

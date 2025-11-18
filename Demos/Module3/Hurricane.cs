@@ -52,7 +52,7 @@ class Hurricane
         //Option 2 - Optimize the code with elseif
         //This is faster! :)
 
-        /*
+        
         if (windSpeed >= CAT5)
             category = 5;
         else if (windSpeed >= CAT4)
@@ -65,7 +65,7 @@ class Hurricane
             category = 1;
         else
             category = 0;
-        */
+        
 
 
 
