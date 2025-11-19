@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Demos\Module6\SalesLetter.cs" />
+    <Compile Include="Demos\Module6\HurricaneWithMethod.cs" />
   </ItemGroup>
 
   <ItemGroup>
