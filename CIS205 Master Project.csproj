@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Demos\Module6\HurricaneWithMethod.cs" />
+    <Compile Include="Demos\Module6\ChatAWhileWithMethod.cs" />
   </ItemGroup>
 
   <ItemGroup>
