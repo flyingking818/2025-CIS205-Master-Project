@@ -1,7 +1,6 @@
 ﻿using System;
 using static System.Console;
 using System.Globalization;
-using System.Xml;
 
 class ChatAWhileWithMethod
 {
