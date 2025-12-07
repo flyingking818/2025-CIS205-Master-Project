@@ -22,11 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="Demos\Module7\Demo1_ClassBasics.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Demos\Module3\" />
+    <Folder Include="Demos\" />
   </ItemGroup>
 
 </Project>

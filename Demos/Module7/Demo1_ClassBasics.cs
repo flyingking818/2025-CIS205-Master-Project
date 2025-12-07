@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using static System.Console;
+
+//Implementation class
 class WelcomeEmployees
 {
     static void Main()
@@ -15,6 +17,7 @@ class WelcomeEmployees
         //Instantiate the first employee using the Employee class template
         Employee aWorker = new Employee();
 
+        //Let's use the setters
         aWorker.IdNumber = 1234;
         aWorker.Name = "John Doe";
         aWorker.Email = "john@flagler.edu";
